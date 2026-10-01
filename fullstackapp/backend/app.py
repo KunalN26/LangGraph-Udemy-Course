@@ -19,6 +19,7 @@ TARGET_DATABASE_URL = (
 )
 
 default_engine = create_engine(DEFAULT_DATABASE_URL, future=True)
+default_engine2 = create_engine(DEFAULT_DATABASE_URL, future=True)
 target_engine = create_engine(TARGET_DATABASE_URL, future=True)
 
 Base = declarative_base()
